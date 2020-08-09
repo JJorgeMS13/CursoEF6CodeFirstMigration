@@ -22,6 +22,10 @@ namespace CursoEF.Migrations
             new Curso { CursoId = 1, Nombre = "JavaScript", FechaEmision = DateTime.Now, FechaUpdate = DateTime.Now },
             new Curso { CursoId = 2, Nombre = "ASP.NET MVC 6", FechaEmision = DateTime.Now, FechaUpdate = DateTime.Now },
             new Curso { CursoId = 3,Nombre = "EF6", FechaEmision = DateTime.Now, FechaUpdate = DateTime.Now });
+            context.AlumnoEstado.AddOrUpdate(
+             new AlumnoEstado { AlumnoEstadoId = 1, Nombre = "Matriculado"},
+             new AlumnoEstado { AlumnoEstadoId = 2, Nombre = "Retirado" },
+             new AlumnoEstado { AlumnoEstadoId = 3, Nombre = "Egresado" });
         }
     }
 }

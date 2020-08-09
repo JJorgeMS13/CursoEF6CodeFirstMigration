@@ -16,6 +16,8 @@
         public DbSet<Alumno> Alumno { get; set; }
         public DbSet<Curso> Curso { get; set; }
         public DbSet<AlumnoCurso> AlumnoCurso { get; set; }
+
+        public DbSet<AlumnoEstado> AlumnoEstado { get; set; }
         public EfCursoContext()
             : base("name=EfCursoContext")
         {

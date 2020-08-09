@@ -16,3 +16,4 @@ C:\Users\Usuario\source\repos\CursoEF\CursoEF\obj\Debug\CursoEF.Migrations.Alter
 C:\Users\Usuario\source\repos\CursoEF\CursoEF\obj\Debug\CursoEF.Migrations.AddCurso.resources
 C:\Users\Usuario\source\repos\CursoEF\CursoEF\obj\Debug\CursoEF.Migrations.addAlumnoDireccion.resources
 C:\Users\Usuario\source\repos\CursoEF\CursoEF\obj\Debug\CursoEF.Migrations.addAlumnoNota.resources
+C:\Users\Usuario\source\repos\CursoEF\CursoEF\obj\Debug\CursoEF.Migrations.AgregarAlumnoEstado.resources

@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controlador\AlumnoRepository.cs" />
     <Compile Include="Migrations\202008090522071_AddAlumno.cs" />
     <Compile Include="Migrations\202008090522071_AddAlumno.Designer.cs">
       <DependentUpon>202008090522071_AddAlumno.cs</DependentUpon>
@@ -72,10 +73,15 @@
     <Compile Include="Migrations\202008090610130_addAlumnoNota.Designer.cs">
       <DependentUpon>202008090610130_addAlumnoNota.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008091905540_AgregarAlumnoEstado.cs" />
+    <Compile Include="Migrations\202008091905540_AgregarAlumnoEstado.Designer.cs">
+      <DependentUpon>202008091905540_AgregarAlumnoEstado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Alumno.cs" />
     <Compile Include="Model\AlumnoCurso.cs" />
     <Compile Include="Model\AlumnoDireccion.cs" />
+    <Compile Include="Model\AlumnoEstado.cs" />
     <Compile Include="Model\Curso.cs" />
     <Compile Include="Model\EfCursoContext.cs" />
     <Compile Include="Program.cs" />
@@ -100,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008090610130_addAlumnoNota.resx">
       <DependentUpon>202008090610130_addAlumnoNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008091905540_AgregarAlumnoEstado.resx">
+      <DependentUpon>202008091905540_AgregarAlumnoEstado.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
